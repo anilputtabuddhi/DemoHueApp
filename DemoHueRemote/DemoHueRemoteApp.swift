@@ -11,7 +11,13 @@ import SwiftUI
 struct DemoHueRemoteApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView(
+              store: .init(
+                initialState: RootState(),
+                reducer: rootReducer,
+                environment: .live
+              )
+            )
         }
     }
 }
