@@ -12,7 +12,7 @@ Some of the features
 3) Focus on modularity and Single responsibility.
 4) Reuse Views and modules (Core, View pair) wherever applicable.
 
-I think this is a great way to build highly scalable apps. I had so much fun hacking together this app and hope you find this useful. The Composable architecture naturally lends itself easily to slice up "Application state" into as small a chunk as one wants and then pulling it back through the reducer. I have now become a big fan and will continue to use it in all my projects.
+I think this is a great way to build highly scalable apps. I had so much fun hacking together this app and hope you find this useful. The Composable architecture naturally lends itself easily to slice up "Application state", "Actions", "Side Effects" and "The State machine" itself into as small a chunk as one wants and then pulling it back and through the operators on Reducers. I have now become a big fan and will continue to use it in all my projects.
 
 Note:
   If you do not have a Hue Bridge or any Hue lights and just want to see the app working, there are mocks you can use. In file RootCore.swift replace LiveDiscoverHueApi()" with "MockDiscoverHueApi(), and replace "HueAPI(authorisedHueBridge: authorisedHueBridge)" with "MockHueAPI()". This should allow you to use the app with its full functionality. 
