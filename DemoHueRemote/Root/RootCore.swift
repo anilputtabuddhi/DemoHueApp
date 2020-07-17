@@ -1,5 +1,5 @@
 //
-//  RooCore.swift
+//  RootCore.swift
 //  DemoHueRemote
 //
 //  Created by Anil Puttabuddhi on 14/07/2020.

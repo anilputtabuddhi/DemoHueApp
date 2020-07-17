@@ -37,7 +37,6 @@
 		4D36860B24BCCBB800113FC9 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 4D36860A24BCCBB800113FC9 /* ComposableArchitecture */; };
 		4D36860F24BDD23900113FC9 /* BrightnessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36860E24BDD23900113FC9 /* BrightnessControl.swift */; };
 		4DA5F02724BE5D6300396F0B /* HueCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5F02624BE5D6300396F0B /* HueCore.swift */; };
-		4DA5F02C24BE5E0600396F0B /* RooCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5F02B24BE5E0600396F0B /* RooCore.swift */; };
 		4DA5F02E24BE5E2300396F0B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5F02D24BE5E2300396F0B /* RootView.swift */; };
 		4DA5F03124BEE0E300396F0B /* ConfigHueBridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5F03024BEE0E300396F0B /* ConfigHueBridgeView.swift */; };
 		4DA5F03324BEE0F200396F0B /* ConfigHueBridgeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5F03224BEE0F200396F0B /* ConfigHueBridgeCore.swift */; };
@@ -50,6 +49,7 @@
 		4DBED97324BF644000A80FA3 /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBED97224BF644000A80FA3 /* SettingsTabView.swift */; };
 		4DBED97524C062A200A80FA3 /* HueBridgeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBED97424C062A100A80FA3 /* HueBridgeDetailView.swift */; };
 		4DBED97724C1AD9F00A80FA3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBED97624C1AD9F00A80FA3 /* HomeView.swift */; };
+		4DBED99424C1D15600A80FA3 /* RootCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBED99324C1D15600A80FA3 /* RootCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,7 +108,6 @@
 		4D3685FF24BCCB8600113FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D36860E24BDD23900113FC9 /* BrightnessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessControl.swift; sourceTree = "<group>"; };
 		4DA5F02624BE5D6300396F0B /* HueCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueCore.swift; sourceTree = "<group>"; };
-		4DA5F02B24BE5E0600396F0B /* RooCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RooCore.swift; sourceTree = "<group>"; };
 		4DA5F02D24BE5E2300396F0B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		4DA5F03024BEE0E300396F0B /* ConfigHueBridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigHueBridgeView.swift; sourceTree = "<group>"; };
 		4DA5F03224BEE0F200396F0B /* ConfigHueBridgeCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigHueBridgeCore.swift; sourceTree = "<group>"; };
@@ -121,6 +120,7 @@
 		4DBED97224BF644000A80FA3 /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
 		4DBED97424C062A100A80FA3 /* HueBridgeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueBridgeDetailView.swift; sourceTree = "<group>"; };
 		4DBED97624C1AD9F00A80FA3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4DBED99324C1D15600A80FA3 /* RootCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +189,7 @@
 		4D3685C124BCC9E100113FC9 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				4DA5F02B24BE5E0600396F0B /* RooCore.swift */,
+				4DBED99324C1D15600A80FA3 /* RootCore.swift */,
 				4DA5F02D24BE5E2300396F0B /* RootView.swift */,
 			);
 			path = Root;
@@ -471,7 +471,6 @@
 				4D3685EB24BCC9E200113FC9 /* LightView.swift in Sources */,
 				4DA5F02724BE5D6300396F0B /* HueCore.swift in Sources */,
 				4DA5F03124BEE0E300396F0B /* ConfigHueBridgeView.swift in Sources */,
-				4DA5F02C24BE5E0600396F0B /* RooCore.swift in Sources */,
 				4DA5F03524BEE92200396F0B /* DiscoverHueApi.swift in Sources */,
 				4DA5F03324BEE0F200396F0B /* ConfigHueBridgeCore.swift in Sources */,
 				4D3685E524BCC9E200113FC9 /* MockHueAPI.swift in Sources */,
@@ -484,6 +483,7 @@
 				4D3685F324BCC9E200113FC9 /* GroupListView.swift in Sources */,
 				4D3685F524BCC9E200113FC9 /* TitledToggleView.swift in Sources */,
 				4DBED97124BF5F9F00A80FA3 /* SettingsTabCore.swift in Sources */,
+				4DBED99424C1D15600A80FA3 /* RootCore.swift in Sources */,
 				4DBED96624BF0E0E00A80FA3 /* MockDiscoverHueApi.swift in Sources */,
 				4D36860F24BDD23900113FC9 /* BrightnessControl.swift in Sources */,
 				4DBED97524C062A200A80FA3 /* HueBridgeDetailView.swift in Sources */,
